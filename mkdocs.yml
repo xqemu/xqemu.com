@@ -35,6 +35,9 @@ copyright: 'Copyright &copy; 2018 xqemu Developers'
 # Configuration
 theme:
   name: material
+  palette:
+    primary: 'green'
+    accent: 'green'
 
   # 404 page
   # static_templates:
@@ -54,7 +57,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/images/favicon.png
   logo:
     icon: "games"
 
