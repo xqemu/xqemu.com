@@ -56,7 +56,7 @@ theme:
     code: Roboto Mono
   favicon: assets/images/favicon.png
   logo:
-    icon: "\uE80C"
+    icon: "games"
 
 # Customization
 # extra:
@@ -100,4 +100,8 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - xqemu: index.md
+  - Welcome: index.md
+  - Getting Started: build.md
+  - Controller Mapping: controller.md
+  - Developers:
+    - Debug: debug.md
