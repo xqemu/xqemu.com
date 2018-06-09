@@ -1,5 +1,10 @@
 This repository contains the contents of xqemu.com. You are welcome to improve
-the page by submitting a pull request!
+the site by submitting a pull request!
+
+How to contribute
+-----------------
+Clone the repo, make/test your changes, then file a pull request! Once approved,
+the changes will automatically be propagated to the website via the CI system.
 
 Testing your changes
 --------------------
