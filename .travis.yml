@@ -10,10 +10,7 @@ script:
   - docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material build 
 
 deploy:
-  local-dir: site
   provider: pages
+  local-dir: site
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: false
-  on:
-    branch: gh-pages
