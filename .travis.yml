@@ -5,9 +5,11 @@ services:
 
 before_install:
   - docker pull squidfunk/mkdocs-material
+  - mkdir -p site
 
 script:
-  - docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material build 
+  - docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material build
+  - echo "xqemu.com" > site/CNAME
 
 deploy:
   provider: pages
