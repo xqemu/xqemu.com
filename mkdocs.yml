@@ -27,7 +27,7 @@ site_url: http://xqemu.com
 # Repository
 repo_name: xqemu/xqemu
 repo_url: https://github.com/xqemu/xqemu
-edit_uri: ""
+edit_uri: https://github.com/xqemu/xqemu.com/blob/master/docs/
 
 # Copyright
 copyright: 'Copyright &copy; 2018 xqemu Developers'
