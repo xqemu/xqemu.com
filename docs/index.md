@@ -8,7 +8,7 @@ Build Status
 ------------
 | Windows | Linux | macOS |
 | ------- | ----- | ----- |
-| [![Build status](https://ci.appveyor.com/api/projects/status/uq15hyv04dgkil64/branch/xbox-2.x-rebase?svg=true)](https://ci.appveyor.com/project/mborgerson/xqemu-99msh/branch/xbox-2.x-rebase) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=xbox-2.x-rebase)](https://travis-ci.org/xqemu/xqemu) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=xbox-2.x-rebase)](https://travis-ci.org/xqemu/xqemu) |
+| [![Build status](https://ci.appveyor.com/api/projects/status/sl3l57l6wklw08wo?svg=true)](https://ci.appveyor.com/project/xqemu-bot/xqemu) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=xbox-2.x-rebase)](https://travis-ci.org/xqemu/xqemu) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=xbox-2.x-rebase)](https://travis-ci.org/xqemu/xqemu) |
 
 Get involved
 ------------
