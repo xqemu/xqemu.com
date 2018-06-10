@@ -20,7 +20,7 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: xqemu
+site_name: XQEMU
 site_description: 'Experimental Xbox emulator'
 site_author: 'xqemu Developers'
 site_url: http://xqemu.com
@@ -31,7 +31,7 @@ repo_url: https://github.com/xqemu/xqemu
 edit_uri: https://github.com/xqemu/xqemu.com/blob/master/docs/
 
 # Copyright
-copyright: 'Copyright &copy; 2018 xqemu Developers'
+copyright: 'Copyright &copy; 2018 XQEMU Developers'
 
 # Configuration
 theme:
