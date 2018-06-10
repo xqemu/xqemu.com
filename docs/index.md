@@ -1,26 +1,35 @@
 hero: An open-source, cross-platform emulator for the original Xbox.
 
-XQEMU is an open-source, cross-platform emulator for the original Xbox and Sega
-Chihiro. It is currently in very early stages of development. XQEMU is built
-on-top of [QEMU](https://github.com/qemu/qemu).
+XQEMU is an open-source, cross-platform, low-level system emulator for the
+original Xbox and Sega Chihiro, built on the excellent
+[QEMU](https://www.qemu.org/) project.
 
-Build Status
-------------
-| Windows | Linux | macOS |
-| ------- | ----- | ----- |
-| [![Build status](https://ci.appveyor.com/api/projects/status/8rbaimmbp6k44rab?svg=true)](https://ci.appveyor.com/project/mborgerson/xqemu-c5j6o) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=xbox-2.x-rebase)](https://travis-ci.org/xqemu/xqemu) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=xbox-2.x-rebase)](https://travis-ci.org/xqemu/xqemu) |
+!!! attention
+
+    This project is still early in development. At this point, the intended user
+    is a **developer** who is capable of acquiring the necessary ROM images,
+    building a hard disk image, and compiling the project from sources (binary
+    distributions are not yet available).
+
+Project Status
+--------------
+Audio does not work, and graphics are slow and buggy, but
+progress is being made! Please visit the [issues
+page](https://github.com/xqemu/xqemu/issues) on GitHub for the current open and
+active tasks.
 
 Get involved
 ------------
 If you are interested in helping to create a functional, accurate, and
-performant Xbox emulator, you are most welcome to contribute! Keep up with the
-latest developments. Chat with us on `#xqemu` on irc.freenode.net, or on
-[Discord](https://discord.gg/WxJPPyz).
+performant Xbox emulator, you are most welcome to contribute! The project is
+hosted on [GitHub](https://github.com/xqemu/xqemu). Keep up with the latest
+developments by chatting with us about **development topics** on `#xqemu` on
+irc.freenode.net, or on [Discord](https://discord.gg/WxJPPyz).
 
 Screenshots
 -----------
 
-!!! note "Disclaimer"
+!!! info "Disclaimer"
     These screenshots represent the **absolute best** of what can
     currently be made to run and is not representative of most titles.
 
