@@ -89,7 +89,8 @@ markdown_extensions:
 # Page tree
 pages:
   - Welcome: index.md
-  - Getting Started: build.md
-  - Controller Mapping: controller.md
+  - Getting Started: getting-started.md
+  - Input Devices: input.md
+  - Tips: tips.md
   - Developers:
-    - Debug: debug.md
+    - Welcome: developers/index.md

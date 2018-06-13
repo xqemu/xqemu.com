@@ -5,11 +5,9 @@ original Xbox and Sega Chihiro, built on the excellent
 [QEMU](https://www.qemu.org/) project.
 
 !!! attention
-
     This project is still early in development. At this point, the intended user
     is a **developer** who is capable of acquiring the necessary ROM images,
-    building a hard disk image, and compiling the project from sources (binary
-    distributions are not yet available).
+    building a hard disk image, and compiling the project from sources.
 
 Project Status
 --------------
@@ -18,7 +16,7 @@ progress is being made! Please visit the [issues
 page](https://github.com/xqemu/xqemu/issues) on GitHub for the current open and
 active tasks.
 
-Get involved
+Get Involved
 ------------
 If you are interested in helping to create a functional, accurate, and
 performant Xbox emulator, you are most welcome to contribute! The project is
