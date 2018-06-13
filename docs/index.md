@@ -24,13 +24,27 @@ hosted on [GitHub](https://github.com/xqemu/xqemu). Keep up with the latest
 developments by chatting with us about **development topics** on `#xqemu` on
 irc.freenode.net, or on [Discord](https://discord.gg/WxJPPyz).
 
-Screenshots
------------
+Screenshots / Videos
+--------------------
 
 !!! info "Disclaimer"
     These screenshots represent the **absolute best** of what can
     currently be made to run and is not representative of most titles.
 
+#### Halo: Combat Evolved
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qlXSDqkNkJg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ![Halo](screenshots/halo.png)
+
+#### Jet Set Radio Future
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MVwB1jCzkWs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+#### Sneak King
+
 ![King](screenshots/king.png)
+
+#### Barbie Horse Adventures
+
 ![Barbie](screenshots/barbie.png)
