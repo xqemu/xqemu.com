@@ -63,13 +63,23 @@ _or sometimes_
 
 You have options:
 
-##### Option 1: Image your Xbox HDD
+##### Option 1: Use a pre-built Xbox HDD
+
+You can use a pre-built 8G Xbox HDD image, free of any copyrighted content, and
+only containing a dummy dashboard. [You can download this image from
+here!](https://github.com/xqemu/xqemu-hdd-image/releases).
+
+Please note that, by design, this drive image does not contain the official Xbox
+dashboard, only a dummy dashboard. If you'd like, you can start XQEMU, run
+a disc that hosts an FTP server, and copy your desired dashboard files over.
+
+##### Option 2: Image your real Xbox HDD
 
 This is the most authentic way to do it. Unlock your drive, connect it to a
 computer, and `dd` the entire contents of the drive straight to a file. This
 file can be used as-is with XQEMU.
 
-##### Option 2: Build a new HDD image
+##### Option 3: Build a new HDD image from scratch
 
 You can also create an Xbox hard-disk image using XboxHDM:
 
