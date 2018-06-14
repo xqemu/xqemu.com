@@ -33,9 +33,28 @@ Screenshots / Videos
 
 #### Halo: Combat Evolved
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qlXSDqkNkJg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+##### Menu
 
 ![Halo](screenshots/halo.png)
+
+##### Campaign
+
+Note: Debug Build, Accelerated 4x
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qlXSDqkNkJg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+##### Multiplayer: Blood Gulch
+
+Note: Debug Build, Realtime
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SoOm37DqXjk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+##### Multiplayer: Hang Em High
+
+Note: Debug Build, Realtime
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVfr8Hi_dE4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 #### Jet Set Radio Future
 
