@@ -63,11 +63,11 @@ _or sometimes_
 
 You have options:
 
-##### Option 1: Use a pre-built Xbox HDD
+##### Option 1: Use a pre-built Xbox HDD image
 
 You can use a pre-built 8G Xbox HDD image, free of any copyrighted content, and
 only containing a dummy dashboard. [You can download this image from
-here!](https://github.com/xqemu/xqemu-hdd-image/releases).
+here!](https://github.com/xqemu/xqemu-hdd-image/releases)
 
 Please note that, by design, this drive image does not contain the official Xbox
 dashboard, only a dummy dashboard. If you'd like, you can start XQEMU, run
