@@ -91,6 +91,7 @@ pages:
   - Welcome: index.md
   - Getting Started: getting-started.md
   - Input Devices: input.md
+  - Networking: networking.md
   - Tips: tips.md
   - Developers:
     - Welcome: developers/index.md
