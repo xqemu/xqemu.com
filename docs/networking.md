@@ -51,3 +51,5 @@ The command line options are very similar to Linux however you’ll need to chan
 ` -net nic,model=nvnet -net tap,ifname=”Ethernet 2”,script=no`
 
 In this example the interface name is `Ethernet 2`.
+
+!!! note When using the standalone/downloadable version of XQEMU you cannot have a space in the TAP adapter name.
