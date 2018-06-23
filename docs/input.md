@@ -45,30 +45,30 @@ the moment but the following buttons are mapped:
 
 | Xbox        | PC Keyboard     |
 | ----------: | :-------------- |
-| ![A](https://upload.wikimedia.org/wikipedia/commons/d/d2/Xbox_button_A.svg) | <kbd>S</kbd> |
-| ![B](https://upload.wikimedia.org/wikipedia/commons/b/b8/Xbox_button_B.svg) | <kbd>D</kbd> |
-| ![X](https://upload.wikimedia.org/wikipedia/commons/8/8c/Xbox_button_X.svg) | <kbd>W</kbd> |
-| ![Y](https://upload.wikimedia.org/wikipedia/commons/d/df/Xbox_button_Y.svg) | <kbd>E</kbd> |
-| White       | <kbd>X</kbd> |
-| Black       | <kbd>C</kbd> |
-| Start       | <kbd>Return</kbd> |
-| Back        | <kbd>Backspace</kbd> |
-| DPad-Up     | <kbd>&uarr;</kbd> |
-| DPad-Down   | <kbd>&darr;</kbd> |
-| DPad-Left   | <kbd>&larr;</kbd> |
-| DPad-Right  | <kbd>&rarr;</kbd> |
+| ![A](http://xboxdevwiki.net/images/thumb/c/cf/Input-a.png/24px-Input-a.png) | <kbd>S</kbd> |
+| ![B](http://xboxdevwiki.net/images/thumb/b/b8/Input-b.png/24px-Input-b.png) | <kbd>D</kbd> |
+| ![X](http://xboxdevwiki.net/images/thumb/5/54/Input-x.png/24px-Input-x.png) | <kbd>W</kbd> |
+| ![Y](http://xboxdevwiki.net/images/thumb/2/2d/Input-y.png/24px-Input-y.png) | <kbd>E</kbd> |
+| ![White](http://xboxdevwiki.net/images/thumb/2/25/Input-white.png/20px-Input-white.png) | <kbd>X</kbd> |
+| ![Black](http://xboxdevwiki.net/images/thumb/4/40/Input-black.png/20px-Input-black.png) | <kbd>C</kbd> |
+| ![Start](http://xboxdevwiki.net/images/thumb/5/59/Input-start.png/26px-Input-start.png) | <kbd>Return</kbd> |
+| ![Back](http://xboxdevwiki.net/images/thumb/6/6f/Input-back.png/26px-Input-back.png) | <kbd>Backspace</kbd> |
+| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Up     | <kbd>&uarr;</kbd> |
+| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Down   | <kbd>&darr;</kbd> |
+| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Left   | <kbd>&larr;</kbd> |
+| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Right  | <kbd>&rarr;</kbd> |
 | Left Trigger | <kbd>Q</kbd> |
 | Right Trigger | <kbd>R</kbd> |
-| Left-Thumbstick-Up | <kbd>T</kbd> |
-| Left-Thumbstick-Down | <kbd>G</kbd> |
-| Left-Thumbstick-Left | <kbd>F</kbd> |
-| Left-Thumbstick-Right | <kbd>H</kbd> |
-| Left-Thumbstick-Press | <kbd>V</kbd> |
-| Right-Thumbstick-Up | <kbd>I</kbd> |
-| Right-Thumbstick-Down | <kbd>K</kbd> |
-| Right-Thumbstick-Left | <kbd>J</kbd> |
-| Right-Thumbstick-Right | <kbd>L</kbd> |
-| Right-Thumbstick-Press | <kbd>M</kbd> |
+| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Up | <kbd>T</kbd> |
+| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Down | <kbd>G</kbd> |
+| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Left | <kbd>F</kbd> |
+| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Right | <kbd>H</kbd> |
+| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Press | <kbd>V</kbd> |
+| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Up | <kbd>I</kbd> |
+| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Down | <kbd>K</kbd> |
+| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Left | <kbd>J</kbd> |
+| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Right | <kbd>L</kbd> |
+| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Press | <kbd>M</kbd> |
 
 ## Option 3: USB-passthru (advanced)
 
