@@ -14,6 +14,12 @@ The website is built using [mkdocs](https://www.mkdocs.org/). You can build the
 entire website and host it locally for testing your changes before submitting a
 pull request!
 
+Both of the following methods will start the mkdocs daemon to monitor for local changes to any of the files,
+automatically rebuild the site when a change is detected, and host all of it 
+locally at [http://127.0.0.1:8000](http://127.0.0.1:8000).
+
+## Using a docker container
+
 Start by using [Docker](https://www.docker.com/) to pull down the Material theme
 Docker image:
 
@@ -23,6 +29,13 @@ Then in the root of the repository run:
 
 	docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
 
-This will start the mkdocs daemon to monitor for local changes to any of the files,
-automatically rebuild the site when a change is detected, and host all of it 
-locally at [http://127.0.0.1:8000](http://127.0.0.1:8000).
+## Using mkdocs directly
+
+Start by installing mkdocs using the [Python](https://www.python.org/) package manager:
+
+	pip install mkdocs mkdocs-material
+
+Then in the root of the repository run:
+
+	mkdocs serve
+
