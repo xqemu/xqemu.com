@@ -38,3 +38,5 @@ Commit `5d4058d`. Recorded by John GodGames, thanks!
 ### Mechassult
 
 ![Mechassult](screenshots/mechassult.png)
+
+Taken by MayeulC, thanks!
