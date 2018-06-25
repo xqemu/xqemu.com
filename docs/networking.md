@@ -16,6 +16,22 @@ documentation](https://wiki.qemu.org/Documentation/Networking).
 
 # Bridged Networking
 
+## Windows
+
+__Requirements__
+- [OpenVPN TAP Driver](https://openvpn.net/index.php/open-source/downloads.html) (Scroll down to “Tap-Windows”)
+
+Install the prerequisites then you’ll need to manually bridge your main adapter and the newly created TAP adapter. This is easily done by going to `Network & Sharing Center` then `Change adapter settings`.
+
+The command line options are very similar to Linux however you’ll need to change the `ifname=tap0` to what ever Windows or yourself had set the name of the new TAP adapter to be.
+
+` -net nic,model=nvnet -net tap,ifname=”Ethernet 2”,script=no`
+
+In this example the interface name is `Ethernet 2`.
+
+!!! note
+    When using the standalone/downloadable version of XQEMU you cannot have a space in the TAP adapter name.
+
 ## Linux
 
 __Requirements__
@@ -38,19 +54,3 @@ dhclient -v br0
 ```
 
 Once that runs and you don’t see any errors you should be able to just run XQEMU with the additional command line option of ` -net nic,model=nvnet -net tap,ifname=tap0,script=no`.
-
-## Windows
-
-__Requirements__
-- [OpenVPN TAP Driver](https://openvpn.net/index.php/open-source/downloads.html) (Scroll down to “Tap-Windows”)
-
-Compared to Linux bridging, this is a little more involved but once it’s set-up you won’t need to mess with it again. Install the prerequisites then you’ll need to manually bridge your main adapter and the newly created TAP adapter. This is easily done by going to `Network & Sharing Center` then `Change adapter settings`.
-
-The command line options are very similar to Linux however you’ll need to change the `ifname=tap0` to what ever Windows or yourself had set the name of the new TAP adapter to be.
-
-` -net nic,model=nvnet -net tap,ifname=”Ethernet 2”,script=no`
-
-In this example the interface name is `Ethernet 2`.
-
-!!! note
-    When using the standalone/downloadable version of XQEMU you cannot have a space in the TAP adapter name.

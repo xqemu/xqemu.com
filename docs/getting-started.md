@@ -100,27 +100,7 @@ You can also create an Xbox hard-disk image using XboxHDM:
 Building XQEMU from Source
 --------------------------
 
-### macOS Build
-
-First make sure you've installed the [Homebrew](https://brew.sh/) package
-manager, then update and install necessary packages:
-
-    brew update
-    brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2
-
-Clone the repo:
-    
-    git clone -b xbox-2.x-rebase https://github.com/xqemu/xqemu.git
-
-Then change directory:
-
-    cd xqemu
-
-And build using the build script:
-
-	./build_macos.sh
-
-### Windows Build
+### Building on Windows
 
 !!! tip
     If you'd prefer to skip building from source and instead run a pre-built
@@ -129,7 +109,7 @@ And build using the build script:
 
 Start by installing and setting up [MSYS2](https://www.msys2.org/).
 
-!!! important    
+!!! important
     After installing MSYS2, you'll need to open **MSYS2 MinGW 64-bit** to
     perform building. Otherwise, you may see build failures for cc.exe.
 
@@ -141,7 +121,7 @@ Once MSYS2 has been installed, install all of the necessary packages by running:
     mingw-w64-x86_64-SDL2 mingw-w64-x86_64-pixman
 
 Clone the repo:
-    
+
     git clone -b xbox-2.x-rebase https://github.com/xqemu/xqemu.git
 
 Then change directory:
@@ -152,7 +132,12 @@ And build using the build script:
 
     sh ./build_windows.sh
 
-### Linux Build
+### Building on GNU/Linux
+
+!!! note
+
+    These instructions were tested with Ubuntu 18.04. Depending on the
+    Linux distribution being used, these instructions may vary.
 
 First enable `deb-src` via:
 
@@ -164,11 +149,11 @@ In this file, uncomment first `deb-src` line. Now refresh packages:
 
 Install build deps:
 
-    sudo apt-get build-dep qemu 
+    sudo apt-get build-dep qemu
     sudo apt-get install git libsdl2-dev libglew-dev
 
 Then clone the repo:
-    
+
     git clone -b xbox-2.x-rebase https://github.com/xqemu/xqemu.git
 
 Then change directory:
@@ -179,12 +164,32 @@ And build using the build script:
 
     ./build_linux.sh
 
+### Building on macOS
+
+First make sure you've installed the [Homebrew](https://brew.sh/) package
+manager, then update and install necessary packages:
+
+    brew update
+    brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2
+
+Clone the repo:
+
+    git clone -b xbox-2.x-rebase https://github.com/xqemu/xqemu.git
+
+Then change directory:
+
+    cd xqemu
+
+And build using the build script:
+
+    ./build_macos.sh
+
 Launch XQEMU
 ------------
 
 XQEMU is launchable via the command-line interface (though a GUI launcher is in
 development!) You can launch with the following command:
-    
+
     ./i386-softmmu/qemu-system-i386 \
         -cpu pentium3 \
         -machine xbox,bootrom=$MCPX \

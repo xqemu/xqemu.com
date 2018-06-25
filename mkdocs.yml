@@ -89,6 +89,7 @@ markdown_extensions:
 # Page tree
 pages:
   - Welcome: index.md
+  - Screenshots: screenshots.md
   - Getting Started: getting-started.md
   - Input Devices: input.md
   - Networking: networking.md
