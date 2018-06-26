@@ -1,5 +1,5 @@
 !!! note "Note"
-    These instructions are for the upcoming 2.x rebase branch. For instructions
+    These instructions are for the current master branch. For instructions
     on the legacy 1.x base of XQEMU, please see the GitHub wiki.
 
 Introduction
@@ -122,7 +122,7 @@ Once MSYS2 has been installed, install all of the necessary packages by running:
 
 Clone the repo:
 
-    git clone -b xbox-2.x-rebase https://github.com/xqemu/xqemu.git
+    git clone https://github.com/xqemu/xqemu.git
 
 Then change directory:
 
@@ -154,7 +154,7 @@ Install build deps:
 
 Then clone the repo:
 
-    git clone -b xbox-2.x-rebase https://github.com/xqemu/xqemu.git
+    git clone https://github.com/xqemu/xqemu.git
 
 Then change directory:
 
@@ -174,7 +174,7 @@ manager, then update and install necessary packages:
 
 Clone the repo:
 
-    git clone -b xbox-2.x-rebase https://github.com/xqemu/xqemu.git
+    git clone https://github.com/xqemu/xqemu.git
 
 Then change directory:
 
