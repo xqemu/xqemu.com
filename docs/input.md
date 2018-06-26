@@ -1,7 +1,3 @@
-!!! note "Note"
-    These instructions are for the current master branch. For instructions
-    on the legacy 1.x base of XQEMU, please see the GitHub wiki.
-
 XQEMU currently supports three options for connecting one or more virtual
 gamepads:
 
