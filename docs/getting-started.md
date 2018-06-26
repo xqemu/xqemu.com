@@ -1,7 +1,3 @@
-!!! note "Note"
-    These instructions are for the current master branch. For instructions
-    on the legacy 1.x base of XQEMU, please see the GitHub wiki.
-
 Introduction
 ------------
 XQEMU is a low-level, full-system emulator which emulates the actual hardware of
