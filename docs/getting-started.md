@@ -126,7 +126,7 @@ Then change directory:
 
 And build using the build script:
 
-    sh ./build_windows.sh
+    sh ./build.sh
 
 ### Building on GNU/Linux
 
@@ -158,7 +158,7 @@ Then change directory:
 
 And build using the build script:
 
-    ./build_linux.sh
+    ./build.sh
 
 ### Building on macOS
 
@@ -178,7 +178,7 @@ Then change directory:
 
 And build using the build script:
 
-    ./build_macos.sh
+    ./build.sh
 
 Launch XQEMU
 ------------
