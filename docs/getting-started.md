@@ -113,7 +113,7 @@ Once MSYS2 has been installed, install all of the necessary packages by running:
 
     pacman -S git python2 make autoconf automake-wrapper \
     mingw-w64-x86_64-libtool mingw-w64-x86_64-gcc mingw-w64-x86_64-pkg-config \
-    mingw-w64-x86_64-glib2 mingw-w64-x86_64-glew mingw-w64-x86_64-SDL \
+    mingw-w64-x86_64-glib2 mingw-w64-x86_64-libepoxy mingw-w64-x86_64-SDL \
     mingw-w64-x86_64-SDL2 mingw-w64-x86_64-pixman
 
 Clone the repo:
@@ -146,7 +146,7 @@ In this file, uncomment first `deb-src` line. Now refresh packages:
 Install build deps:
 
     sudo apt-get build-dep qemu
-    sudo apt-get install git libsdl2-dev libglew-dev
+    sudo apt-get install git libsdl2-dev libepoxy-dev
 
 Then clone the repo:
 
@@ -166,7 +166,7 @@ First make sure you've installed the [Homebrew](https://brew.sh/) package
 manager, then update and install necessary packages:
 
     brew update
-    brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2
+    brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2 libepoxy
 
 Clone the repo:
 
