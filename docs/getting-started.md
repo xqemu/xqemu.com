@@ -61,7 +61,7 @@ _or sometimes_
 
 You have options:
 
-##### Option 1: Use a pre-built Xbox HDD image
+##### Option 1: Use a pre-built Xbox HDD image (recommended)
 
 You can use a pre-built 8G Xbox HDD image, free of any copyrighted content, and
 only containing a dummy dashboard. [You can download this image from
@@ -88,12 +88,8 @@ file can be used as-is with XQEMU.
 
 ##### Option 3: Build a new HDD image from scratch
 
-You can also create an Xbox hard-disk image using XboxHDM:
-
-* Create an [xboxhdm](http://sourceforge.net/projects/xboxhdm2/) cd-rom with the dashboard files
-  * If xboxhdm doesn't work for you, try to set the included "mkisofs.exe" to run in Windows XP compatibility mode
-* Create a blank hard-disk file: ```qemu-img create -f qcow2 xbox_harddisk.qcow2 8G```
-* Run xboxhdm with qemu or something: ```i386-softmmu/qemu-system-i386 -hda xbox_harddisk.qcow2 -cdrom linux.iso```
+You can also create an Xbox hard-disk image using XboxHDM. Directions on how
+to do this [can be found here](https://github.com/xqemu/xqemu-hdd-image).
 
 Building XQEMU from Source
 --------------------------
