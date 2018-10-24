@@ -1,5 +1,10 @@
-Introduction
-------------
+Getting XQEMU
+-------------
+The latest pre-built version of XQEMU for Windows can be [downloaded here](https://ci.appveyor.com/api/projects/mborgerson/xqemu-c5j6o/artifacts/xqemu.zip?branch=master).
+Linux and macOS users will need to build XQEMU from source (see below).
+
+Required Files
+--------------
 XQEMU is a low-level, full-system emulator which emulates the actual hardware of
 the Xbox; this means that in order to actually run XQEMU, you must have a copy
 of the stuff that a real Xbox needs when it turns on:
@@ -13,12 +18,11 @@ Unfortunately, distributing some of these items would violate copyright laws, so
 you'll need to acquire them on your own.
 
 !!! attention
+
     The XQEMU project does not endorse or promote piracy. We don't link to the
     copyrighted files, or discuss how to acquire them. The best way to acquire
     these files is to dump them from *your real, physical Xbox*. Please don't
     ask us how to get them.
-
-### Tips
 
 #### MCPX Boot ROM Image
 
@@ -68,6 +72,7 @@ only containing a dummy dashboard. [You can download this image from
 here!](https://github.com/xqemu/xqemu-hdd-image/releases)
 
 !!! note
+
     By design, this particular drive image does not contain the official Xbox
     dashboard, but instead contains only a dummy dashboard. Because of this, you
     may see an error message when starting XQEMU with an unmodified retail BIOS
@@ -96,14 +101,10 @@ Building XQEMU from Source
 
 ### Building on Windows
 
-!!! tip
-    If you'd prefer to skip building from source and instead run a pre-built
-    version of XQEMU for Windows, build artifacts are now available through
-    [Appveyor](https://ci.appveyor.com/project/mborgerson/xqemu-c5j6o/build/artifacts).
-
 Start by installing and setting up [MSYS2](https://www.msys2.org/).
 
 !!! important
+
     After installing MSYS2, you'll need to open **MSYS2 MinGW 64-bit** to
     perform building. Otherwise, you may see build failures for cc.exe.
 
@@ -115,6 +116,7 @@ Once MSYS2 has been installed, install all of the necessary packages by running:
     mingw-w64-x86_64-SDL2 mingw-w64-x86_64-pixman
 
 !!! important
+
     Build failures have been reported when the path to the XQEMU root directory
     contains spaces. Please make sure to not have any whitespace in your build path.
     E.g: `C:\Users\User Name\xqemu\build.sh` will not work.
@@ -183,8 +185,8 @@ And build using the build script:
 
     ./build.sh
 
-Launch XQEMU
-------------
+Running XQEMU
+-------------
 
 XQEMU is launchable via the command-line interface (though a GUI launcher is in
 development!) You can launch with the following command:
