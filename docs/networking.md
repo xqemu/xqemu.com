@@ -25,7 +25,7 @@ Install the prerequisites then you’ll need to manually bridge your main adapte
 
 The command line options are very similar to Linux however you’ll need to change the `ifname=tap0` to what ever Windows or yourself had set the name of the new TAP adapter to be.
 
-` -net nic,model=nvnet -net tap,ifname=”Ethernet 2”,script=no`
+` -net nic,model=nvnet -net tap,ifname="Ethernet 2",script=no`
 
 In this example the interface name is `Ethernet 2`.
 
