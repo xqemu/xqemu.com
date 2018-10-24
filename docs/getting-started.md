@@ -31,8 +31,18 @@ with 0x02 0xEE.
 #### Flash ROM Image (aka BIOS)
 
 Xbox 1.0 compatible bios (cromwell, 3944, 4034, 4036, ...). You can use a retail
-bios a debug bios. Just like a real Xbox, running a retail bios will not boot
-unofficial software.
+or debug image. Just like a real Xbox, running an unmodified retail bios will
+not allow booting unofficial software.
+
+People have reported most success using the modified retail "COMPLEX 4627" BIOS.
+
+##### Retail BIOS
+
+    1M dump: MD5 (3944.bin) = e8b39b98cf775496c1c76e4f7756e6ed
+
+_or sometimes_
+
+    256k dump: MD5 (3944.bin) = 542c62cb976a4993c8c5027dff9638ce
 
 ##### Debug BIOS
 
@@ -46,14 +56,6 @@ needs to be attached), so you can skip the next step in some cases.
 _or sometimes_
 
     1MB dump: MD5 (complex_4627debug.bin) = e8dd61cc6abdbd06aac185e371312dc1
-
-##### Retail BIOS
-
-    1M dump: MD5 (3944.bin) = e8b39b98cf775496c1c76e4f7756e6ed
-
-_or sometimes_
-
-    256k dump: MD5 (3944.bin) = 542c62cb976a4993c8c5027dff9638ce
 
 #### Hard Disk Drive Image
 
