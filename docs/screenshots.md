@@ -19,7 +19,11 @@ Note: Debug Build, Accelerated 4x
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qlXSDqkNkJg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-#### Multiplayer: Blood Gulch, Battle Creek
+#### Multiplayer: Blood Gulch (System Link)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17L8Te-cQbo?start=30" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+#### Multiplayer: Blood Gulch, Battle Creek (Split Screen)
 
 Note: Debug Build, Realtime, June 20th
 
