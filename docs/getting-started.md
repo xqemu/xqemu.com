@@ -106,8 +106,6 @@ Start by installing and setting up [MSYS2](https://www.msys2.org/).
 !!! important
     After installing MSYS2, you'll need to open **MSYS2 MinGW 64-bit** to
     perform building. Otherwise, you may see build failures for cc.exe.
-    Please make sure to not have any whitesspace in your build path or it will cause build errors.
-    E.g: `C:\Users\User Name\xqemu\build.sh` will not work.
 
 Once MSYS2 has been installed, install all of the necessary packages by running:
 
@@ -115,6 +113,11 @@ Once MSYS2 has been installed, install all of the necessary packages by running:
     mingw-w64-x86_64-libtool mingw-w64-x86_64-gcc mingw-w64-x86_64-pkg-config \
     mingw-w64-x86_64-glib2 mingw-w64-x86_64-libepoxy mingw-w64-x86_64-SDL \
     mingw-w64-x86_64-SDL2 mingw-w64-x86_64-pixman
+
+!!! important
+    Build failures have been reported when the path to the XQEMU root directory
+    contains spaces. Please make sure to not have any whitespace in your build path.
+    E.g: `C:\Users\User Name\xqemu\build.sh` will not work.
 
 Clone the repo:
 
@@ -195,9 +198,9 @@ development!) You can launch with the following command:
         -drive index=1,media=cdrom,file=$DISC \
         -usb -device usb-xbox-gamepad
 
-Note: If launching a pre-built binary from AppVeyor, replace `./i386-softmmu/qemu-system-i386` with `./xqemu`
-
-Of course, on Windows the executable path will have a `.exe` extension.
+Of course, on Windows the executable path will have a `.exe` extension. If launching
+a pre-built binary from AppVeyor, replace `./i386-softmmu/qemu-system-i386` with
+`xqemu.exe`.
 
 Replace the variables `$MCPX`, `$BIOS`, `$HDD`, and `$DISC` with the appropriate
 file paths or define them as variables in your shell.
