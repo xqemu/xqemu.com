@@ -20,7 +20,7 @@ Debugging XQEMU Itself
 Depending on the task at hand, it may be necessary to debug XQEMU itself.
 
 ### Windows
-The [Visual Studio Code](https://code.visualstudio.com/) IDE can be used to launch and debug XQEMU.
+The [Visual Studio Code](https://code.visualstudio.com/) IDE can be used to launch and debug XQEMU. A sample launch.vs.json file which can be used to launch XQEMU from code [can be found here](https://raw.githubusercontent.com/xqemu/xqemu.com/master/samples/launch.vs.json).
 
 ### macOS
 #### Using Xcode
