@@ -1,0 +1,36 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "name": "C++ Launch (GDB)",
+      "project": "dist\\xqemu.exe",
+      "args": [
+        "-cpu",
+        "pentium3",
+        "-machine",
+        "xbox,short_animation,kernel_irqchip=off,bootrom=../xbox/mcpx/mcpx_1.0.bin",
+        "-m",
+        "128",
+        "-bios",
+        "../xbox/bios/4627_orig.bin",
+        "-drive",
+        "index=0,media=disk,file=../xbox/hdd/retail_empty.qcow2",
+        "-drive",
+        "index=1,media=cdrom,file=../xbox/dvd/Halo_mulleted.iso",
+        "-usb",
+        "-device",
+        "usb-xbox-gamepad",
+        "-monitor",
+        "none",
+        "-s"
+      ],
+      "cwd": "${workspaceRoot}",
+      "program": "${debugInfo.target}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "c:\\msys64\\usr\\bin\\gdb.exe",
+      "externalConsole": true
+    }
+  ]
+}
