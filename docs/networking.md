@@ -19,7 +19,7 @@ documentation](https://wiki.qemu.org/Documentation/Networking).
 ## Windows
 
 __Requirements__
-- [OpenVPN TAP Driver](https://openvpn.net/index.php/open-source/downloads.html) (Scroll down to “Tap-Windows”)
+- [OpenVPN TAP Driver](https://build.openvpn.net/downloads/releases/latest/) (Download “Tap-Windows”)
 
 Install the prerequisites then you’ll need to manually bridge your main adapter and the newly created TAP adapter. This is easily done by going to `Network & Sharing Center` then `Change adapter settings`.
 
