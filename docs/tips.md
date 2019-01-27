@@ -11,7 +11,7 @@ It's assumed you're using Filezilla. If not, look for the respective settings in
 your client. Fire up Filezilla and set the following options:
 
 * Filezilla > Settings > Connection > FTP > Active mode
-  * Active mode IP, "Use tho following IP address:" 10.0.2.2
+  * Active mode IP, "Use the following IP address:" 10.0.2.2
   * Make sure "Don't use external IP address on local connections." is NOT checked
 
 Then create your new "Site" with IP address 127.0.0.1 and port 1021. Under Transfer Settings, check Active.
