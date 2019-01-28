@@ -111,9 +111,9 @@ Start by installing and setting up [MSYS2](https://www.msys2.org/).
 
 Once MSYS2 has been installed, install all of the necessary packages by running:
 
-    pacman -S git python2 make autoconf automake-wrapper \
+    pacman -S git python3 make autoconf automake-wrapper \
     mingw-w64-x86_64-libtool mingw-w64-x86_64-gcc mingw-w64-x86_64-pkg-config \
-    mingw-w64-x86_64-glib2 mingw-w64-x86_64-libepoxy mingw-w64-x86_64-SDL \
+    mingw-w64-x86_64-glib2 mingw-w64-x86_64-libepoxy \
     mingw-w64-x86_64-SDL2 mingw-w64-x86_64-pixman
 
 !!! important
