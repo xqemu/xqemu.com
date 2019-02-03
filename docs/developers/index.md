@@ -8,6 +8,11 @@ Build Status
 | ------- | ----- | ----- |
 | [![Build status](https://ci.appveyor.com/api/projects/status/i1m0keigjabxg170/branch/master?svg=true)](https://ci.appveyor.com/project/xqemu-bot/xqemu) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=master)](https://travis-ci.org/xqemu/xqemu) | [![Travis-CI Status](https://travis-ci.org/xqemu/xqemu.svg?branch=master)](https://travis-ci.org/xqemu/xqemu) |
 
+Building From Source Code
+--------------------
+
+See [building](/building)
+
 Debugging Guest Code
 --------------------
 * QEMU can host a gdb stub! Launch with ```-s -S```, and with gdb run `target remote localhost:1234`
