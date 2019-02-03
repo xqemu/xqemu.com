@@ -96,3 +96,4 @@ pages:
   - Tips: tips.md
   - Developers:
     - Welcome: developers/index.md
+    - Building: developers/building.md
