@@ -2,7 +2,7 @@ Getting XQEMU
 -------------
 **Download for Windows:** The latest, pre-built release version of XQEMU for Windows can be [**downloaded here**](https://ci.appveyor.com/api/projects/xqemu-bot/xqemu/artifacts/xqemu.zip?branch=master&job=Environment:%20MSYS2_ARCH=x86_64,%20MSYSTEM=MINGW64;%20Configuration:%20Release&pr=false).
 
-Linux and macOS users will need to build XQEMU from source see [Building XQEMU from Source¶
+Linux and macOS users will need to build XQEMU from source see [Building XQEMU from Source
 ](/developers/building/).
 
 Required Files
