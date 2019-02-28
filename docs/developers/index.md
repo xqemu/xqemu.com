@@ -11,7 +11,7 @@ Build Status
 Building From Source Code
 --------------------
 
-See [building](/building)
+For directions on how to build XQEMU from source, please refer [this page](building.md).
 
 Debugging Guest Code
 --------------------
