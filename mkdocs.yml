@@ -36,6 +36,8 @@ copyright: 'Copyright &copy; 2018-2019 XQEMU Developers'
 # Configuration
 theme:
   name: material
+  custom_dir: theme_overrides
+
   palette:
     primary: green
     accent: light green
@@ -57,6 +59,8 @@ theme:
     code: Roboto Mono
   logo:
     icon: "games"
+
+developer_route: developers
 
 # Extensions
 markdown_extensions:
