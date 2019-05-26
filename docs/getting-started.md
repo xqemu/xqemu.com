@@ -41,27 +41,6 @@ not allow booting unofficial software.
 
 People have reported most success using the modified retail "COMPLEX 4627" BIOS.
 
-##### Retail BIOS
-
-    1M dump: MD5 (3944.bin) = e8b39b98cf775496c1c76e4f7756e6ed
-
-_or sometimes_
-
-    256k dump: MD5 (3944.bin) = 542c62cb976a4993c8c5027dff9638ce
-
-##### Debug BIOS
-
-People have reported success with the 'COMPLEX 4627' modified debug bios. It's
-convenient to note that this bios does not necessarily require a _populated_
-hard disk image to load an application from DVD (though an empty drive still
-needs to be attached), so you can skip the next step in some cases.
-
-    v1.0.2 1M dump: MD5 (Complex_4627Debug.bin) = 19b5c6d3d42a707bba620634fe6d4baf
-
-_or sometimes_
-
-    1MB dump: MD5 (complex_4627debug.bin) = e8dd61cc6abdbd06aac185e371312dc1
-
 #### Hard Disk Drive Image
 
 You have options:

@@ -54,3 +54,16 @@ variables to quickly track down bugs. You can also attach to running processes.
 ### Linux
 GDB works of course. [Eclipse](https://www.eclipse.org/cdt/) can also be used
 for those wanting a graphical source-level debugging solution.
+
+Debug BIOS
+----------
+People have reported success with the 'COMPLEX 4627' modified debug bios. It's
+convenient to note that this bios does not necessarily require a _populated_
+hard disk image to load an application from DVD (though an empty drive still
+needs to be attached), so you can skip the next step in some cases.
+
+    v1.0.2 1M dump: MD5 (Complex_4627Debug.bin) = 19b5c6d3d42a707bba620634fe6d4baf
+
+_or sometimes_
+
+    1MB dump: MD5 (complex_4627debug.bin) = e8dd61cc6abdbd06aac185e371312dc1
