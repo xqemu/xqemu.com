@@ -94,6 +94,7 @@ pages:
   - Input Devices: input.md
   - Networking: networking.md
   - Tips: tips.md
+  - FAQ: faq.md
   - Developers:
     - Welcome: developers/index.md
     - Building: developers/building.md
