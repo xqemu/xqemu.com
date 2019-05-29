@@ -42,18 +42,11 @@ And build using the build script:
     These instructions were tested with Ubuntu 18.04. Depending on the
     Linux distribution being used, these instructions may vary.
 
-First enable `deb-src` via:
-
-    sudo gedit /etc/apt/sources.list
-
-In this file, uncomment first `deb-src` line. Now refresh packages:
-
-    sudo apt-get update
-
 Install build deps:
 
-    sudo apt-get build-dep qemu
-    sudo apt-get install git libsdl2-dev libepoxy-dev
+    sudo apt-get update
+    sudo apt-get install git build-essential pkg-config libsdl2-dev \
+    libepoxy-dev zlib1g-dev libpixman-1-dev
 
 Then clone the repo:
 
