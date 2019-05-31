@@ -49,3 +49,7 @@ image.
 #### Q: Does XQEMU support "redump" style ISOs?
 
 No, not yet. Please use extract-xiso to repack your ISO.
+
+#### Q: Why am I getting an "Assertion failed!" message when running XQEMU?
+
+When a game exercises a piece of code in XQEMU that has not yet been implemented or verified, XQEMU will `assert`  which forces execution to stop. The reason for this is that anything happening beyond that point may be unpredictable and significantly increase the debugging burden.
