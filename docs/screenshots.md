@@ -3,13 +3,14 @@
     These screenshots represent the **absolute best** of what can currently be
     made to run and is not representative of most titles.
 
+Check out the [official XQEMU project YouTube channel](https://youtube.com/xqemu)
+for development updates.
+
 All users are encouraged to help test XQEMU; and by recording screenshots, and
 even better video footage, you can help show the current state of the emulator
-and help us discover any problems. If you discover a problem, please [report
-it!](https://github.com/xqemu/xqemu/issues)
-
-The [John GodGames Emus](https://www.youtube.com/channel/UC993yJ3ET5aFc6cRyukofjQ) channel on YouTube regularly provides several up-to-date videos of XQEMU running a large variety
-of games. You can [see his XQEMU playlist here](https://www.youtube.com/watch?v=TB6O-9M1A4k&list=PL4PD8cV5ypNCAOMAGRV6VbECTy3kGfWbq&index=1).
+and help us discover any problems. If you discover a problem, please feel free
+to join our [user Discord server](https://discord.gg/4aZYj74) to discuss it with
+us and help us get it fixed!
 
 ### Halo: Combat Evolved
 
