@@ -58,7 +58,7 @@ Then change directory:
 
 And build using the build script:
 
-    ./build.sh
+    ./build.sh --python=/usr/bin/python3
 
 ### Building on macOS
 
