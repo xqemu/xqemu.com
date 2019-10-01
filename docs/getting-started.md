@@ -2,7 +2,7 @@ Getting XQEMU
 -------------
 **Download for Windows:** The latest, pre-built release version of XQEMU for Windows can be [**downloaded here**](https://ci.appveyor.com/api/projects/xqemu-bot/xqemu/artifacts/xqemu.zip?branch=master&job=Environment:%20MSYS2_ARCH=x86_64,%20MSYSTEM=MINGW64;%20Configuration:%20Release&pr=false).
 
-Linux and macOS users will need to build XQEMU from source see [Building XQEMU from Source](developers/building.md).
+Linux and macOS users will need to build XQEMU from source, see [Building XQEMU from Source](developers/building.md).
 
 Required Files
 --------------
@@ -20,7 +20,7 @@ you'll need to acquire them on your own.
 
 !!! attention
 
-    The XQEMU project does not endorse or promote piracy. We don't link to the
+    The XQEMU project does not endorse or promote piracy. We don't link to
     copyrighted files, or discuss how to acquire them. The best way to acquire
     these files is to dump them from *your real, physical Xbox*. Please don't
     ask us how to get them.
@@ -30,16 +30,16 @@ you'll need to acquire them on your own.
     MD5 (mcpx_1.0.bin) = d49c52a4102f6df7bcf8d0617ac475ed
 
 If your MCPX dump has an MD5 of `196a5f59a13382c185636e691d6c323d`, you dumped
-it badly and it's a couple of bytes off. It should start with 0x33 0xC0 and end
-with 0x02 0xEE.
+it badly and it's a couple of bytes off. It should start with `0x33 0xC0` and end
+with `0x02 0xEE`.
 
 #### Flash ROM Image (aka BIOS)
 
-Xbox 1.0 compatible bios (cromwell, 3944, 4034, 4036, ...). You can use a retail
+Xbox 1.0 compatible bios (cromwell, 4034, 4036, ...). You can use a retail
 or debug image. Just like a real Xbox, running an unmodified retail bios will
 not allow booting unofficial software.
 
-People have reported most success using the modified retail "COMPLEX 4627" BIOS.
+People have reported most success using the modified "COMPLEX 4627" BIOS (retail version).
 
 #### Hard Disk Drive Image
 
