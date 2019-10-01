@@ -79,8 +79,32 @@ to do this [can be found here](https://github.com/xqemu/xqemu-hdd-image).
 Running XQEMU
 -------------
 
-XQEMU is launchable via the command-line interface (though a GUI launcher is in
-development!) You can launch with the following command:
+XQEMU is launchable via the command-line interface, or through the [XQEMU-Manager
+GUI](https://github.com/xqemu/xqemu-manager).
+
+### Using XQEMU-Manager
+
+XQEMU-Manager is a simple application with a graphical interface that allows you
+to easily configure, launch, and control XQEMU. Currently it is distributed separately
+from the main XQEMU executable. Binary distributions of XQEMU-Manager are [available
+here](https://ci.appveyor.com/api/projects/xqemu-bot/xqemu-manager/artifacts/xqemu-manager.zip?branch=master).
+
+Upon starting XQEMU-Manager, you will be presented with the following interface:
+
+![XQEMU-Manager Main Window](xqemu-manager-main.png)
+
+You will need to edit your configuration to let XQEMU-Manager know where XQEMU
+is located, and where to find the files described above. Navigate to Edit > Settings
+and you will be presented with the following dialog:
+
+![XQEMU-Manager Settings Window](xqemu-manager-settings.png)
+
+After configuring your settings, close the settings dialog and click the "Start"
+button to launch XQEMU.
+
+### Using the Command-Line Interface
+
+You can launch with the following command:
 
     ./i386-softmmu/qemu-system-i386 \
         -cpu pentium3 \
