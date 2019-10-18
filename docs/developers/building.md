@@ -66,7 +66,7 @@ First make sure you've installed the [Homebrew](https://brew.sh/) package
 manager, then update and install necessary packages:
 
     brew update
-    brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2 libepoxy
+    brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2 libepoxy coreutils
 
 Clone the repo:
 
