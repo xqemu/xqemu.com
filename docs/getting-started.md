@@ -86,8 +86,8 @@ GUI](https://github.com/xqemu/xqemu-manager).
 
 XQEMU-Manager is a simple application with a graphical interface that allows you
 to easily configure, launch, and control XQEMU. Currently it is distributed separately
-from the main XQEMU executable. Binary distributions of XQEMU-Manager are [available
-here](https://ci.appveyor.com/api/projects/xqemu-bot/xqemu-manager/artifacts/xqemu-manager.zip?branch=master).
+from the main XQEMU executable. A binary distribution of XQEMU-Manager for Windows
+is [available here](https://ci.appveyor.com/api/projects/xqemu-bot/xqemu-manager/artifacts/xqemu-manager.zip?branch=master&pr=false).
 
 Upon starting XQEMU-Manager, you will be presented with the following interface:
 
