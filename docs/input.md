@@ -93,8 +93,13 @@ On Linux you can use `lsusb` for step 2. Step 3 involves adding a udev rule on
 most linux distributions. The udev rule (/etc/udev/rules.d/999-xbox-
 gamepad.rules) for a Controller-S could look like this:
 
-	SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0288", GROUP="users", MODE="660" # Hub
-	SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0289", GROUP="users", MODE="660" # Gamepad
+	# Duke (Hub; Gamepad)
+	SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="001c", GROUP="users", MODE="660"
+	SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0202", GROUP="users", MODE="660"
+
+	# Controller S (Hub; Gamepad)
+	SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0288", GROUP="users", MODE="660"
+	SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0289", GROUP="users", MODE="660"
 
 #### Hub-Forwarding
 
