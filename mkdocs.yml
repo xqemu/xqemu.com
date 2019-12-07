@@ -91,10 +91,14 @@ pages:
   - Welcome: index.md
   - Screenshots: screenshots.md
   - Getting Started: getting-started.md
-  - Input Devices: input.md
-  - Networking: networking.md
-  - Tips: tips.md
+  - Input Devices Settings: input.md
   - FAQ: faq.md
+  - Tips: tips.md
   - Developers:
     - Welcome: developers/index.md
-    - Building: developers/building.md
+    - Building XQEMU: developers/building.md
+    - Debugging XQEMU: developers/debugging.md
+    - Command-Line:
+      - Basics: developers/command-line/basics.md
+      - Input: developers/command-line/input.md
+      - Networking: developers/command-line/networking.md

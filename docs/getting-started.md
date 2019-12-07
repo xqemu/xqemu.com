@@ -79,10 +79,7 @@ to do this [can be found here](https://github.com/xqemu/xqemu-hdd-image).
 Running XQEMU
 -------------
 
-XQEMU is launchable via the command-line interface, or through the [XQEMU-Manager
-GUI](https://github.com/xqemu/xqemu-manager).
-
-### Using XQEMU-Manager
+XQEMU is launchable through the [XQEMU-Manager GUI](https://github.com/xqemu/xqemu-manager).
 
 XQEMU-Manager is a simple application with a graphical interface that allows you
 to easily configure, launch, and control XQEMU. Currently it is distributed separately
@@ -102,26 +99,3 @@ following dialog:
 
 After configuring your settings, close the settings dialog and click the
 <kbd>Start</kbd> button to launch XQEMU.
-
-### Using the Command-Line Interface
-
-You can launch with the following command:
-
-    ./i386-softmmu/qemu-system-i386 \
-        -cpu pentium3 \
-        -machine xbox,bootrom=$MCPX \
-        -m 64 \
-        -bios $BIOS \
-        -drive index=0,media=disk,file=$HDD,locked \
-        -drive index=1,media=cdrom,file=$DISC \
-        -usb -device usb-xbox-gamepad
-
-Of course, on Windows the executable path will have a `.exe` extension. If launching
-a pre-built binary from AppVeyor, replace `./i386-softmmu/qemu-system-i386` with
-`xqemu.exe`.
-
-Replace the variables `$MCPX`, `$BIOS`, `$HDD`, and `$DISC` with the appropriate
-file paths or define them as variables in your shell.
-
-The Xbox boot animation sequence can be bypassed by adding the
-`,short-animation` option to the `-machine` switch above.
