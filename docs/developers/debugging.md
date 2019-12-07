@@ -31,3 +31,12 @@ To make most of these tools, you have to change compile time settings in XQEMU c
 To enable use of OpenGL debug extensions, define `DEBUG_NV2A` and `DEBUG_NV2A_GL`.
 You can do this by modifying the code in `hw/xbox/nv2a/nv2a_debug.h`.
 The OpenGL debug extensions will then be used to annotate OpenGL objects and calls with information about the Xbox guest.
+
+## Comparing against real hardware
+
+You can write unit tests using [nxdk](https://github.com/XboxDev/nxdk) (C/C++), [xboxpy](https://github.com/xboxdev/xboxpy) (Python).
+If you have a debug bios, you can also use [ViridiX](https://github.com/XboxDev/ViridiX) (C#).
+
+For graphics debugging, you can compare against physical hardware using [nv2a-trace](https://github.com/XboxDev/nv2a-trace).
+
+For assembling programs for the APU DSPs you can use [a56](https://github.com/xboxdev/a56).
