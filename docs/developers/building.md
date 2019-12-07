@@ -1,7 +1,6 @@
-Building XQEMU from Source
---------------------------
+## Building XQEMU from Source
 
-### Building on Windows
+### Windows
 
 Start by installing and setting up [MSYS2](https://www.msys2.org/).
 
@@ -12,10 +11,12 @@ Start by installing and setting up [MSYS2](https://www.msys2.org/).
 
 Once MSYS2 has been installed, install all of the necessary packages by running:
 
-    pacman -S git python3 make autoconf automake-wrapper \
-    mingw-w64-x86_64-libtool mingw-w64-x86_64-gcc mingw-w64-x86_64-pkg-config \
-    mingw-w64-x86_64-glib2 mingw-w64-x86_64-libepoxy \
-    mingw-w64-x86_64-SDL2 mingw-w64-x86_64-pixman
+```
+pacman -S git python3 make autoconf automake-wrapper \
+mingw-w64-x86_64-libtool mingw-w64-x86_64-gcc mingw-w64-x86_64-pkg-config \
+mingw-w64-x86_64-glib2 mingw-w64-x86_64-libepoxy \
+mingw-w64-x86_64-SDL2 mingw-w64-x86_64-pixman
+```
 
 !!! important
 
@@ -25,17 +26,51 @@ Once MSYS2 has been installed, install all of the necessary packages by running:
 
 Clone the repo:
 
-    git clone https://github.com/xqemu/xqemu.git
+```
+git clone https://github.com/xqemu/xqemu.git
+```
 
 Then change directory:
 
-    cd xqemu
+```
+cd xqemu
+```
 
 And build using the build script:
 
-    sh ./build.sh
+```
+sh ./build.sh
+```
 
-### Building on GNU/Linux
+### macOS
+
+First make sure you've installed the [Homebrew](https://brew.sh/) package
+manager, then update and install necessary packages:
+
+```
+brew update
+brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2 libepoxy coreutils
+```
+
+Clone the repo:
+
+```
+git clone https://github.com/xqemu/xqemu.git
+```
+
+Then change directory:
+
+```
+cd xqemu
+```
+
+And build using the build script:
+
+```
+./build.sh
+```
+
+### Linux
 
 !!! note
 
@@ -44,38 +79,26 @@ And build using the build script:
 
 Install build deps:
 
-    sudo apt-get update
-    sudo apt-get install git build-essential pkg-config libsdl2-dev \
-    libepoxy-dev zlib1g-dev libpixman-1-dev
+```
+sudo apt-get update
+sudo apt-get install git build-essential pkg-config libsdl2-dev \
+libepoxy-dev zlib1g-dev libpixman-1-dev
+```
 
 Then clone the repo:
 
-    git clone https://github.com/xqemu/xqemu.git
+```
+git clone https://github.com/xqemu/xqemu.git
+```
 
 Then change directory:
 
-    cd xqemu
+```
+cd xqemu
+```
 
 And build using the build script:
 
-    ./build.sh --python=/usr/bin/python3
-
-### Building on macOS
-
-First make sure you've installed the [Homebrew](https://brew.sh/) package
-manager, then update and install necessary packages:
-
-    brew update
-    brew install libffi gettext glib pixman pkg-config autoconf pixman sdl2 libepoxy coreutils
-
-Clone the repo:
-
-    git clone https://github.com/xqemu/xqemu.git
-
-Then change directory:
-
-    cd xqemu
-
-And build using the build script:
-
-    ./build.sh
+```
+./build.sh --python=/usr/bin/python3
+```
