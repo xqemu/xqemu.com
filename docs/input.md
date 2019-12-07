@@ -48,3 +48,12 @@ The input can't be configured at the moment but the following buttons are mapped
 | [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Left | <kbd>J</kbd> |
 | [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Right | <kbd>L</kbd> |
 | [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Press | <kbd>M</kbd> |
+
+
+## Memory units
+
+XQEMU allows emulation of memory units.
+A standard Xbox controller supports 2 memory units (slot A and B).
+
+The emulated memory units are just raw files.
+They should be of realistic size.
