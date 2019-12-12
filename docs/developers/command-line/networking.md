@@ -1,5 +1,3 @@
-Networking Options
-------------------
 XQEMU emulates the Xbox network controller (nvnet), and being built on top of
 QEMU's robust networking support infrastructure, provides a flexible array of
 advanced network configuration options including:
@@ -11,24 +9,25 @@ advanced network configuration options including:
 - User networking, for simple network use where only basic port-forwarding is
   required.
 
-This page contains some quick tips for common use cases regarding Xbox
-emulation. Additional details about networking configuration information is
-available in the [official QEMU
-documentation](https://wiki.qemu.org/Documentation/Networking).
+This page contains some quick tips for common use cases regarding Xbox emulation.
 
-Bridged Networking
-------------------
+Additional details about networking configuration information is available in the [official QEMU documentation](https://wiki.qemu.org/Documentation/Networking).
+
+## Bridged Networking
 
 ### Windows
 
-__Requirements__
+**Requirements**
+
 - [OpenVPN TAP Driver](https://build.openvpn.net/downloads/releases/latest/) (Download “Tap-Windows”)
 
 Install the prerequisites then you’ll need to manually bridge your main adapter and the newly created TAP adapter. This is easily done by going to `Network & Sharing Center` then `Change adapter settings`.
 
 The command line options are very similar to Linux however you’ll need to change the `ifname=tap0` to what ever Windows or yourself had set the name of the new TAP adapter to be.
 
-` -net nic,model=nvnet -net tap,ifname="Ethernet 2",script=no`
+```
+-net nic,model=nvnet -net tap,ifname="Ethernet 2",script=no
+```
 
 In this example the interface name is `Ethernet 2`.
 
@@ -37,7 +36,8 @@ In this example the interface name is `Ethernet 2`.
 
 ### Linux
 
-__Requirements__
+**Requirements**
+
 - uml-utilities
 - bridge-utils
 
