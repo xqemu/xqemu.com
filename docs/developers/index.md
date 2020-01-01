@@ -23,9 +23,11 @@ This project is hosted on GitHub at [github.com/xqemu/xqemu](https://github.com/
 
 Build Status
 ------------
-| Windows | macOS | Linux |
-| ------- | ----- | ----- |
-| [![Build status](https://ci.appveyor.com/api/projects/status/i1m0keigjabxg170/branch/master?svg=true)](https://ci.appveyor.com/project/xqemu-bot/xqemu) | [![Travis-CI Status](https://travis-matrix-badges.herokuapp.com/repos/xqemu/xqemu/branches/master/2)](https://travis-ci.org/xqemu/xqemu) | [![Travis-CI Status](https://travis-matrix-badges.herokuapp.com/repos/xqemu/xqemu/branches/master/1)](https://travis-ci.org/xqemu/xqemu) |
+| Platform | Build Status |
+|----------|--------------|
+| Windows | [![Build status](https://github.com/xqemu/xqemu/workflows/Build%20(Windows)/badge.svg?branch=master)](https://github.com/xqemu/xqemu/actions?query=branch%3Amaster) |
+| macOS | [![Build status](https://github.com/xqemu/xqemu/workflows/Build%20(macOS)/badge.svg?branch=master)](https://github.com/xqemu/xqemu/actions?query=branch%3Amaster) |
+| Ubuntu | [![Build status](https://github.com/xqemu/xqemu/workflows/Build%20(Ubuntu)/badge.svg?branch=master)](https://github.com/xqemu/xqemu/actions?query=branch%3Amaster) |
 
 Building From Source Code
 --------------------
