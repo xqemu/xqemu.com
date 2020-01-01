@@ -1,6 +1,6 @@
 Getting XQEMU
 -------------
-**Download for Windows:** The latest, pre-built release version of XQEMU for Windows can be [**downloaded here**](https://ci.appveyor.com/api/projects/xqemu-bot/xqemu/artifacts/xqemu.zip?branch=master&job=Environment:%20MSYS2_ARCH=x86_64,%20MSYSTEM=MINGW64;%20Configuration:%20Release&pr=false).
+**Download for Windows:** The latest, pre-built release version of XQEMU for Windows can be [**downloaded here**](https://github.com/xqemu/xqemu/suites/373368695/artifacts/830137).
 
 Linux and macOS users will need to build XQEMU from source, see [Building XQEMU from Source](developers/building.md).
 
@@ -117,7 +117,7 @@ You can launch with the following command:
         -usb -device usb-xbox-gamepad
 
 Of course, on Windows the executable path will have a `.exe` extension. If launching
-a pre-built binary from AppVeyor, replace `./i386-softmmu/qemu-system-i386` with
+a pre-built binary, replace `./i386-softmmu/qemu-system-i386` with
 `xqemu.exe`.
 
 Replace the variables `$MCPX`, `$BIOS`, `$HDD`, and `$DISC` with the appropriate
