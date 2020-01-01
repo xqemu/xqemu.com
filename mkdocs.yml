@@ -87,7 +87,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-pages:
+nav:
   - Welcome: index.md
   - Screenshots: screenshots.md
   - Getting Started: getting-started.md
