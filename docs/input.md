@@ -41,43 +41,43 @@ the moment but the following buttons are mapped:
 
 | Xbox        | PC Keyboard     |
 | ----------: | :-------------- |
-| ![A](http://xboxdevwiki.net/images/thumb/c/cf/Input-a.png/24px-Input-a.png) | <kbd>S</kbd> |
-| ![B](http://xboxdevwiki.net/images/thumb/b/b8/Input-b.png/24px-Input-b.png) | <kbd>D</kbd> |
-| ![X](http://xboxdevwiki.net/images/thumb/5/54/Input-x.png/24px-Input-x.png) | <kbd>W</kbd> |
-| ![Y](http://xboxdevwiki.net/images/thumb/2/2d/Input-y.png/24px-Input-y.png) | <kbd>E</kbd> |
-| ![White](http://xboxdevwiki.net/images/thumb/2/25/Input-white.png/20px-Input-white.png) | <kbd>X</kbd> |
-| ![Black](http://xboxdevwiki.net/images/thumb/4/40/Input-black.png/20px-Input-black.png) | <kbd>C</kbd> |
-| ![Start](http://xboxdevwiki.net/images/thumb/5/59/Input-start.png/26px-Input-start.png) | <kbd>Return</kbd> |
-| ![Back](http://xboxdevwiki.net/images/thumb/6/6f/Input-back.png/26px-Input-back.png) | <kbd>Backspace</kbd> |
-| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Up     | <kbd>&uarr;</kbd> |
-| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Down   | <kbd>&darr;</kbd> |
-| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Left   | <kbd>&larr;</kbd> |
-| [DPad](http://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Right  | <kbd>&rarr;</kbd> |
+| ![A](https://xboxdevwiki.net/images/thumb/c/cf/Input-a.png/24px-Input-a.png) | <kbd>S</kbd> |
+| ![B](https://xboxdevwiki.net/images/thumb/b/b8/Input-b.png/24px-Input-b.png) | <kbd>D</kbd> |
+| ![X](https://xboxdevwiki.net/images/thumb/5/54/Input-x.png/24px-Input-x.png) | <kbd>W</kbd> |
+| ![Y](https://xboxdevwiki.net/images/thumb/2/2d/Input-y.png/24px-Input-y.png) | <kbd>E</kbd> |
+| ![White](https://xboxdevwiki.net/images/thumb/2/25/Input-white.png/20px-Input-white.png) | <kbd>X</kbd> |
+| ![Black](https://xboxdevwiki.net/images/thumb/4/40/Input-black.png/20px-Input-black.png) | <kbd>C</kbd> |
+| ![Start](https://xboxdevwiki.net/images/thumb/5/59/Input-start.png/26px-Input-start.png) | <kbd>Return</kbd> |
+| ![Back](https://xboxdevwiki.net/images/thumb/6/6f/Input-back.png/26px-Input-back.png) | <kbd>Backspace</kbd> |
+| [DPad](https://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Up     | <kbd>&uarr;</kbd> |
+| [DPad](https://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Down   | <kbd>&darr;</kbd> |
+| [DPad](https://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Left   | <kbd>&larr;</kbd> |
+| [DPad](https://xboxdevwiki.net/images/thumb/8/84/Input-d.png/32px-Input-d.png)-Right  | <kbd>&rarr;</kbd> |
 | Left Trigger | <kbd>Q</kbd> |
 | Right Trigger | <kbd>R</kbd> |
-| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Up | <kbd>T</kbd> |
-| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Down | <kbd>G</kbd> |
-| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Left | <kbd>F</kbd> |
-| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Right | <kbd>H</kbd> |
-| [Left-Thumbstick](http://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Press | <kbd>V</kbd> |
-| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Up | <kbd>I</kbd> |
-| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Down | <kbd>K</kbd> |
-| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Left | <kbd>J</kbd> |
-| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Right | <kbd>L</kbd> |
-| [Right-Thumbstick](http://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Press | <kbd>M</kbd> |
+| [Left-Thumbstick](https://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Up | <kbd>T</kbd> |
+| [Left-Thumbstick](https://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Down | <kbd>G</kbd> |
+| [Left-Thumbstick](https://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Left | <kbd>F</kbd> |
+| [Left-Thumbstick](https://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Right | <kbd>H</kbd> |
+| [Left-Thumbstick](https://xboxdevwiki.net/images/thumb/f/fe/Input-l.png/32px-Input-l.png)-Press | <kbd>V</kbd> |
+| [Right-Thumbstick](https://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Up | <kbd>I</kbd> |
+| [Right-Thumbstick](https://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Down | <kbd>K</kbd> |
+| [Right-Thumbstick](https://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Left | <kbd>J</kbd> |
+| [Right-Thumbstick](https://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Right | <kbd>L</kbd> |
+| [Right-Thumbstick](https://xboxdevwiki.net/images/thumb/9/9d/Input-r.png/32px-Input-r.png)-Press | <kbd>M</kbd> |
 
 ## Option 3: USB-passthru (advanced)
 
 XQEMU has the option to forward USB Devices from the host to the guest. The
 input might be delayed, but it will support all features you'd expect. In theory
 even memory units or the communicator should work! You have 2 options to forward
-the xbox gamepad.
+the Xbox gamepad.
 
 You can either forward the hub or just the gamepad.
 
 To be able to forward any of the host devices you must take the following steps:
 
-1. Have an [adapter cable (this one has not been tested yet!)](http://www.amazon.com/XBOX-USB-Controller-Converter-Gamepad-Adapter/dp/B00CD0KFU0) or [build one yourself*](http://www.ocmodshop.com/how-to-use-an-xbox-controller-as-a-usb-pc-gamepad/3/)
+1. Have an [adapter cable (this one has not been tested yet!)](https://www.amazon.com/XBOX-USB-Controller-Converter-Gamepad-Adapter/dp/B00CD0KFU0) or [build one yourself*](https://www.ocmodshop.com/how-to-use-an-xbox-controller-as-a-usb-pc-gamepad/3/)
 2. Have libusb installed
 3. Find the VID:PID (Vendor and Product ID) of the XID-Hub and/or the internal Gamepad device
 4. Make sure that libusb has the necessary permissions
@@ -103,7 +103,7 @@ gamepad.rules) for a Controller-S could look like this:
 
 #### Hub-Forwarding
 
-To forward the entire hub of the controller we simply have to forward the hub to the emulated xbox.
+To forward the entire hub of the controller we simply have to forward the hub to the emulated Xbox.
 
 **Example:**
 ```
@@ -123,7 +123,7 @@ For Gamepad forwarding we create a virtual hub using QEMU and connect the XID ga
 
 ### About XID and QEMU USB
 
-The Xbox uses so called [Xbox Input Devices (XID)](http://xboxdevwiki.net/Xbox_Input_Devices).
+The Xbox uses so called [Xbox Input Devices (XID)](https://xboxdevwiki.net/Xbox_Input_Devices).
 
 To connect a device to the virtual Xbox you must specify the driver for the
 emulated USB device and the port the device should connect to.
@@ -144,7 +144,7 @@ Player 1 at `bus=usb-bus.0,port=3`, your gamepad-device would connect to `bus
 To connect multiple gamepads you can simply specify multiple `-device`.
 
 To find out more about QEMU USB emulation you can read [the QEMU User
-Documentation](http://qemu.weilnetz.de/qemu-doc.html#pcsys_005fusb).
+Documentation](https://qemu.weilnetz.de/qemu-doc.html#pcsys_005fusb).
 
 ### Emulated XID
 

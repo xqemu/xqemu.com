@@ -1,6 +1,6 @@
-[![](https://travis-ci.org/xqemu/xqemu.com.svg?branch=master)](https://travis-ci.org/xqemu/xqemu.com)
+[![Travis status](https://travis-ci.org/xqemu/xqemu.com.svg?branch=master)](https://travis-ci.org/xqemu/xqemu.com)
 
-This repository contains the contents of the [XQEMU project](http://github.com/xqemu/xqemu) website, [xqemu.com](http://xqemu.com). You are welcome to improve
+This repository contains the contents of the [XQEMU project](https://github.com/xqemu/xqemu) website, [xqemu.com](https://xqemu.com). You are welcome to improve
 the site by submitting a pull request!
 
 How to contribute

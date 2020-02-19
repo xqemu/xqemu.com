@@ -1,9 +1,9 @@
 ## Connect to an FTP server hosted inside XQEMU
 Writing files to your Xbox's HDD is currently a pain. It will be easy once the
 fatx driver has write capabilities, but until then you have the option of
-connecting over FTP to a server hosted inside xqemu.
+connecting over FTP to a server hosted inside XQEMU.
 
-Run xqemu as normal, but add option to forward to port 21 inside VM as follows:
+Run XQEMU as normal, but add option to forward to port 21 inside VM as follows:
 
 	-net nic,model=nvnet -net user,hostfwd=tcp:127.0.0.1:1021-:21
 

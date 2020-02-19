@@ -1,5 +1,5 @@
 # Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
-# Copyright (c) 2018 xqemu Developers
+# Copyright (c) 2018 XQEMU Developers
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -22,8 +22,8 @@
 # Project information
 site_name: XQEMU
 site_description: 'Experimental Xbox emulator'
-site_author: 'xqemu Developers'
-site_url: http://xqemu.com
+site_author: 'XQEMU Developers'
+site_url: https://xqemu.com
 
 # Repository
 repo_name: xqemu/xqemu
