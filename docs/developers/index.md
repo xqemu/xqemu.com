@@ -37,7 +37,7 @@ Debugging Guest Code
 --------------------
 * QEMU can host a gdb stub! Launch with ```-s -S```, and with gdb run `target remote localhost:1234`
     * Protip: You can also attach to it with [IDA](https://www.hex-rays.com/products/ida/) if you're so inclined. You can then load in a database if you export it as a IDC script!
-* XQEMU can emulate a XDK serial port (which with a debug bios hosts KD, as in [this](http://msdn.microsoft.com/en-us/library/hh406279.aspx) and [this](http://www.reactos.org/wiki/Techwiki:Kd))! Launch with something like ```-device lpc47m157 -serial unix:/tmp/xserial,server```. With some effort you can wrestle the unix socket into a vm for with WinDbg. There's also a very barebones perl KD client in scripts/windpl
+* XQEMU can emulate a XDK serial port (which with a debug bios hosts KD, as in [this](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-kd-and-ntkd) and [this](https://www.reactos.org/wiki/Techwiki:Kd))! Launch with something like ```-device lpc47m157 -serial unix:/tmp/xserial,server```. With some effort you can wrestle the unix socket into a vm for with WinDbg. There's also a very barebones perl KD client in scripts/windpl
 * [apitrace](https://apitrace.github.io/) is useful for tracking down rendering bugs.
 
 Debugging XQEMU Itself
