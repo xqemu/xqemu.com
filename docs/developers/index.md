@@ -9,13 +9,7 @@ research & development for the original Xbox. General discussion happens on
 the [XboxDev Discord Server](https://discord.gg/WxJPPyz).
 
 **XQEMU Development Chat:** The project has a dedicated development-centric
-IRC channel at `#xqemu` on irc.freenode.net. The XboxDev Discord server has a
-`#xqemu` channel as well, and these channels are bridged together. Developers
-are free to chat from both IRC and Discord.
-
-**XQEMU User Chat:** XQEMU user-centric discussion (general, help,
-multiplayer, showcase, etc.) takes place on the [XQEMU Discord 
-Server](https://discord.gg/4aZYj74).
+IRC channel at `#xqemu` on irc.freenode.net.
 
 Repository Info
 ---------------
