@@ -4,6 +4,10 @@ hero: XQEMU is an open-source emulator to play original Xbox games on Windows, m
 low-level system emulator for the original Xbox and Sega Chihiro, built on the
 excellent [QEMU](https://www.qemu.org/) project.
 
+XQEMU isn't very usable right now. If you're not a developer you probably
+instead want to take a look at [xemu](https://xemu.app/), a fork of XQEMU which
+makes different accuracy tradeoffs but has much better performance as-is.
+
 ---
 
 !!! attention
