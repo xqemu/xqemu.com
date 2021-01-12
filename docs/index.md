@@ -24,12 +24,6 @@ GitHub for the current open and active tasks.
 Check out the [screenshots](/screenshots) to see the current state of
 things, or [click here](/getting-started) to get started running XQEMU!
 
-Community
----------
-Users are invited to join the [XQEMU Discord
-Server](https://discord.gg/4aZYj74) for general discussion! Before asking for
-help, please be sure to read the [getting started guide](getting-started.md).
-
 Developers
 ----------
 If you are interested in helping to improve XQEMU, you are most welcome to
