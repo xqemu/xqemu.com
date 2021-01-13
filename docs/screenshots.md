@@ -6,12 +6,6 @@
 Check out the [official XQEMU project YouTube channel](https://youtube.com/xqemu)
 for development updates.
 
-All users are encouraged to help test XQEMU; and by recording screenshots, and
-even better video footage, you can help show the current state of the emulator
-and help us discover any problems. If you discover a problem, please feel free
-to join our [user Discord server](https://discord.gg/4aZYj74) to discuss it with
-us and help us get it fixed!
-
 ### Halo: Combat Evolved
 
 #### Campaign
