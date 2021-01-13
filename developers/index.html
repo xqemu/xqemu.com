@@ -1,0 +1,802 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Experimental Xbox emulator">
+      
+      
+        <link rel="canonical" href="https://xqemu.com/developers/">
+      
+      
+        <meta name="author" content="XQEMU Developers">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>Welcome - XQEMU</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="green" data-md-color-accent="light-green">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#welcome-xqemu-developers" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://xqemu.com" title="XQEMU" aria-label="XQEMU" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">games</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              XQEMU
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Welcome
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/xqemu/xqemu/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    xqemu/xqemu
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href=".." class="md-tabs__link">
+        Welcome
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="./" class="md-tabs__link md-tabs__link--active">
+          Developers
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://xqemu.com" title="XQEMU" class="md-nav__button md-logo">
+      
+        <i class="md-icon">games</i>
+      
+    </a>
+    XQEMU
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/xqemu/xqemu/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    xqemu/xqemu
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Welcome" class="md-nav__link">
+      Welcome
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../screenshots/" title="Screenshots" class="md-nav__link">
+      Screenshots
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../input/" title="Input Devices" class="md-nav__link">
+      Input Devices
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../networking/" title="Networking" class="md-nav__link">
+      Networking
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../tips/" title="Tips" class="md-nav__link">
+      Tips
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" checked>
+    
+    <label class="md-nav__link" for="nav-8">
+      Developers
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Developers
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Welcome
+      </label>
+    
+    <a href="./" title="Welcome" class="md-nav__link md-nav__link--active">
+      Welcome
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#community" class="md-nav__link">
+    Community
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repository-info" class="md-nav__link">
+    Repository Info
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-status" class="md-nav__link">
+    Build Status
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-from-source-code" class="md-nav__link">
+    Building From Source Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-guest-code" class="md-nav__link">
+    Debugging Guest Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-xqemu-itself" class="md-nav__link">
+    Debugging XQEMU Itself
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    macOS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-xcode" class="md-nav__link">
+    Using Xcode
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debug-bios" class="md-nav__link">
+    Debug BIOS
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="building/" title="Building" class="md-nav__link">
+      Building
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#community" class="md-nav__link">
+    Community
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repository-info" class="md-nav__link">
+    Repository Info
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-status" class="md-nav__link">
+    Build Status
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-from-source-code" class="md-nav__link">
+    Building From Source Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-guest-code" class="md-nav__link">
+    Debugging Guest Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-xqemu-itself" class="md-nav__link">
+    Debugging XQEMU Itself
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    macOS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-xcode" class="md-nav__link">
+    Using Xcode
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debug-bios" class="md-nav__link">
+    Debug BIOS
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/xqemu/xqemu.com/blob/master/docs/developers/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="welcome-xqemu-developers">Welcome, XQEMU Developers!<a class="headerlink" href="#welcome-xqemu-developers" title="Permanent link">&para;</a></h1>
+<h2 id="community">Community<a class="headerlink" href="#community" title="Permanent link">&para;</a></h2>
+<p>Potential XQEMU developers are encouraged to join the
+<a href="https://github.com/XboxDev/XboxDev">XboxDev</a> community, which focuses on
+research &amp; development for the original Xbox. General discussion happens on
+the <a href="https://discord.gg/WxJPPyz">XboxDev Discord Server</a>.</p>
+<p><strong>XQEMU Development Chat:</strong> The project has a dedicated development-centric
+IRC channel at <code>#xqemu</code> on irc.freenode.net.</p>
+<h2 id="repository-info">Repository Info<a class="headerlink" href="#repository-info" title="Permanent link">&para;</a></h2>
+<p>This project is hosted on GitHub at <a href="https://github.com/xqemu/xqemu">github.com/xqemu/xqemu</a>.</p>
+<h2 id="build-status">Build Status<a class="headerlink" href="#build-status" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Build Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://github.com/xqemu/xqemu/actions?query=branch%3Amaster"><img alt="Build status" src="https://github.com/xqemu/xqemu/workflows/Build%20(Windows)/badge.svg?branch=master" /></a></td>
+</tr>
+<tr>
+<td>macOS</td>
+<td><a href="https://github.com/xqemu/xqemu/actions?query=branch%3Amaster"><img alt="Build status" src="https://github.com/xqemu/xqemu/workflows/Build%20(macOS)/badge.svg?branch=master" /></a></td>
+</tr>
+<tr>
+<td>Ubuntu</td>
+<td><a href="https://github.com/xqemu/xqemu/actions?query=branch%3Amaster"><img alt="Build status" src="https://github.com/xqemu/xqemu/workflows/Build%20(Ubuntu)/badge.svg?branch=master" /></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="building-from-source-code">Building From Source Code<a class="headerlink" href="#building-from-source-code" title="Permanent link">&para;</a></h2>
+<p>For directions on how to build XQEMU from source, please refer to <a href="building/">this page</a>.</p>
+<h2 id="debugging-guest-code">Debugging Guest Code<a class="headerlink" href="#debugging-guest-code" title="Permanent link">&para;</a></h2>
+<ul>
+<li>QEMU can host a gdb stub! Launch with <code>-s -S</code>, and with gdb run <code>target remote localhost:1234</code><ul>
+<li>Protip: You can also attach to it with <a href="https://www.hex-rays.com/products/ida/">IDA</a> if you're so inclined. You can then load in a database if you export it as a IDC script!</li>
+</ul>
+</li>
+<li>XQEMU can emulate a XDK serial port (which with a debug bios hosts KD, as in <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-kd-and-ntkd">this</a> and <a href="https://www.reactos.org/wiki/Techwiki:Kd">this</a>)! Launch with something like <code>-device lpc47m157 -serial unix:/tmp/xserial,server</code>. With some effort you can wrestle the unix socket into a vm for with WinDbg. There's also a very barebones perl KD client in scripts/windpl</li>
+<li><a href="https://apitrace.github.io/">apitrace</a> is useful for tracking down rendering bugs.</li>
+</ul>
+<h2 id="debugging-xqemu-itself">Debugging XQEMU Itself<a class="headerlink" href="#debugging-xqemu-itself" title="Permanent link">&para;</a></h2>
+<p>Depending on the task at hand, it may be necessary to debug XQEMU itself.</p>
+<h3 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h3>
+<p>The <a href="https://code.visualstudio.com/">Visual Studio Code</a> IDE can be used to launch and debug XQEMU. A sample launch.vs.json file which can be used to launch XQEMU from code <a href="https://raw.githubusercontent.com/xqemu/xqemu.com/master/samples/launch.vs.json">can be found here</a>.</p>
+<h3 id="macos">macOS<a class="headerlink" href="#macos" title="Permanent link">&para;</a></h3>
+<h4 id="using-xcode">Using Xcode<a class="headerlink" href="#using-xcode" title="Permanent link">&para;</a></h4>
+<p>Create a project, edit the "Scheme" to run the xqemu binary, then click the run
+button. Xcode has a nice GUI for analyzing the stack frame and looking at local
+variables to quickly track down bugs. You can also attach to running processes.</p>
+<h3 id="linux">Linux<a class="headerlink" href="#linux" title="Permanent link">&para;</a></h3>
+<p>GDB works of course. <a href="https://www.eclipse.org/cdt/">Eclipse</a> can also be used
+for those wanting a graphical source-level debugging solution.</p>
+<h2 id="debug-bios">Debug BIOS<a class="headerlink" href="#debug-bios" title="Permanent link">&para;</a></h2>
+<p>People have reported success with the 'COMPLEX 4627' modified debug bios. It's
+convenient to note that this bios does not necessarily require a <em>populated</em>
+hard disk image to load an application from DVD (though an empty drive still
+needs to be attached), so you can skip the next step in some cases.</p>
+<div class="codehilite"><pre><span></span><code>v1.0.2 1M dump: MD5 (Complex_4627Debug.bin) = 19b5c6d3d42a707bba620634fe6d4baf
+</code></pre></div>
+
+
+<p><em>or sometimes</em></p>
+<div class="codehilite"><pre><span></span><code>1MB dump: MD5 (complex_4627debug.bin) = e8dd61cc6abdbd06aac185e371312dc1
+</code></pre></div>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../faq/" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                FAQ
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="building/" title="Building" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Building
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2018-2019 XQEMU Developers
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.df00da5d.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
